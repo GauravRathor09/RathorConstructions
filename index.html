@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rathor Construction | Building For Life — Haldwani, Uttarakhand</title>
+  <meta name="description" content="Rathor Construction — India's trusted contractor for house building, property sales, and renovations across 50+ cities. Based in Haldwani, Uttarakhand.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- ── Intro Splash ── -->
+  <div id="intro-splash" class="intro-splash">
+    <div class="intro-content">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80" alt="Logo" class="intro-logo">
+      <p class="intro-text">RATHOR CONSTRUCTIONS</p>
+      <div class="intro-bar-bg">
+        <div class="intro-bar-fill"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Scroll Progress ── -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- ── Navigation ── -->
+  <header id="nav" class="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo" onclick="scrollToTop()">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=80&q=80" alt="Logo" class="logo-img">
+        <span class="logo-text">RATHOR CONSTRUCTION</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#services" class="nav-link">SERVICES</a>
+        <a href="#estimator" class="nav-link">ESTIMATE</a>
+        <a href="#projects" class="nav-link">PROJECTS</a>
+        <a href="#process" class="nav-link">PROCESS</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </nav>
+      <a href="#contact" class="nav-cta">GET A QUOTE</a>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" onclick="toggleMobileMenu()">
+        <svg class="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#services" class="mobile-link" onclick="closeMobileMenu()">SERVICES</a>
+    <a href="#estimator" class="mobile-link" onclick="closeMobileMenu()">ESTIMATE</a>
+    <a href="#projects" class="mobile-link" onclick="closeMobileMenu()">PROJECTS</a>
+    <a href="#process" class="mobile-link" onclick="closeMobileMenu()">PROCESS</a>
+    <a href="#faq" class="mobile-link" onclick="closeMobileMenu()">FAQ</a>
+    <a href="#contact" class="mobile-link" onclick="closeMobileMenu()">CONTACT</a>
+    <a href="#contact" class="mobile-cta" onclick="closeMobileMenu()">GET A QUOTE</a>
+  </div>
+
+  <!-- ════════ HERO ════════ -->
+  <section id="hero" class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop" alt="Construction" class="hero-bg-img">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-marquee">
+      <div class="marquee-text" id="marquee-text">HOUSE BUILDING &nbsp; &middot; &nbsp; PROPERTY SALES &nbsp; &middot; &nbsp; RENOVATIONS &nbsp; &middot; &nbsp; EXCELLENCE &nbsp; &middot; &nbsp; PRECISION &nbsp; &middot; &nbsp; QUALITY &nbsp; &middot; &nbsp; INDIA &nbsp; &middot; &nbsp; CONSTRUCTION &nbsp; &middot; &nbsp; LEGACY &nbsp; &middot; &nbsp; STRENGTH &nbsp; &middot; &nbsp;</div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">
+        <span class="hero-line"></span>
+        BUILDING INDIA'S FUTURE SINCE 2004
+      </p>
+      <h1 class="hero-title">
+        <span class="hero-word" id="hero-word-1">BUILDING</span>
+        <span class="hero-word hero-word-orange" id="hero-word-2">FOR LIFE.</span>
+      </h1>
+      <p class="hero-subtitle" id="hero-subtitle"><span class="type-cursor">|</span></p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary">GET A FREE QUOTE <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="#projects" class="btn btn-outline">VIEW PROJECTS</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <svg class="float-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+      <span>SCROLL</span>
+    </div>
+    <div class="hero-badge">
+      <span class="badge-num">20+</span>
+      <span class="badge-label">YEARS EXP.</span>
+    </div>
+  </section>
+
+  <!-- ════════ Ticker ════════ -->
+  <div class="ticker">
+    <div class="ticker-track">
+      <span class="ticker-item">RATHOR CONSTRUCTIONS <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">BUILDING SINCE 2004 <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">200+ PROJECTS ACROSS INDIA <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">TRUSTED BY 10,000+ FAMILIES <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">RATHOR CONSTRUCTIONS <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">BUILDING SINCE 2004 <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">200+ PROJECTS ACROSS INDIA <span class="ticker-diamond">&#9670;</span></span>
+      <span class="ticker-item">TRUSTED BY 10,000+ FAMILIES <span class="ticker-diamond">&#9670;</span></span>
+    </div>
+  </div>
+
+  <!-- ════════ Stats ════════ -->
+  <section class="stats-section">
+    <canvas class="particles-canvas" id="particles-canvas"></canvas>
+    <div class="section-watermark">01</div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l8-4 8 4v14M9 21v-6h6v6"/></svg>
+          </div>
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+          </div>
+          <div class="stat-number" data-target="20">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Years of Mastery</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-suffix">+</div>
+          <div class="stat-label">Cities Across India</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <svg class="stat-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="stat-number" data-target="98">0</div>
+          <div class="stat-suffix">%</div>
+          <div class="stat-label">Client Satisfaction</div>
+        </div>
+      </div>
+      <div class="marquee-bottom">
+        <div class="marquee-bottom-text">HOUSE BUILDING &nbsp; &middot; &nbsp; PROPERTY SALES &nbsp; &middot; &nbsp; RENOVATIONS &nbsp; &middot; &nbsp; EXCELLENCE &nbsp; &middot; &nbsp; PRECISION &nbsp; &middot; &nbsp; QUALITY &nbsp; &middot; &nbsp; INDIA &nbsp; &middot; &nbsp; CONSTRUCTION &nbsp; &middot; &nbsp; LEGACY &nbsp; &middot; &nbsp; STRENGTH &nbsp; &middot; &nbsp;</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Services ════════ -->
+  <section id="services" class="services-section">
+    <div class="section-watermark">02</div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; WHAT WE DO</p>
+          <h2 class="section-title">CORE</h2>
+          <h2 class="section-title-outline">SERVICES</h2>
+        </div>
+        <p class="section-header-desc">Three pillars of expertise, unified by one unwavering commitment &mdash; building right, every time.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1931&auto=format&fit=crop" alt="House Building" class="service-img">
+            <div class="service-img-overlay"></div>
+            <div class="service-num">01</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">HOUSE BUILDING CONTRACTS</h3>
+            <p class="service-desc">End-to-end construction from foundation to final key handover. Every brick placed with engineering precision.</p>
+            <a href="#contact" class="service-link">INQUIRE NOW <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop" alt="Property Sales" class="service-img">
+            <div class="service-img-overlay"></div>
+            <div class="service-num">02</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">PROPERTY SALES</h3>
+            <p class="service-desc">Premium plots, commercial spaces & ready-to-move flats across India's fastest-growing corridors.</p>
+            <a href="#contact" class="service-link">INQUIRE NOW <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2100&auto=format&fit=crop" alt="Renovations" class="service-img">
+            <div class="service-img-overlay"></div>
+            <div class="service-num">03</div>
+          </div>
+          <div class="service-body">
+            <h3 class="service-title">RENOVATIONS & REMODELLING</h3>
+            <p class="service-desc">Transform existing spaces with full-scale renovation, extensions, and interior upgrades.</p>
+            <a href="#contact" class="service-link">INQUIRE NOW <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Cost Estimator ════════ -->
+  <section id="estimator" class="estimator-section">
+    <div class="estimator-blobs">
+      <div class="blob blob-3"></div>
+      <div class="blob blob-4"></div>
+    </div>
+    <div class="container">
+      <div class="estimator-grid">
+        <div class="estimator-header">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; INSTANT ESTIMATE</p>
+          <h2 class="section-title">COST</h2>
+          <h2 class="section-title-outline">ESTIMATOR</h2>
+          <p class="estimator-desc">Get a rough construction budget in under 60 seconds. Tailored to Haldwani &amp; Uttarakhand market rates for 2025.</p>
+          <div class="trust-points">
+            <div class="trust-point"><span class="trust-check">&#10003;</span> Based on 2025 Haldwani market rates</div>
+            <div class="trust-point"><span class="trust-check">&#10003;</span> Covers civil, electrical, plumbing &amp; finish</div>
+            <div class="trust-point"><span class="trust-check">&#10003;</span> Instant &mdash; no signup required</div>
+            <div class="trust-point"><span class="trust-check">&#10003;</span> Detailed breakdown included</div>
+          </div>
+        </div>
+        <div class="estimator-widget">
+          <div class="estimator-steps">
+            <div class="step-dot active" data-step="0">1</div>
+            <div class="step-line"></div>
+            <div class="step-dot" data-step="1">2</div>
+            <div class="step-line"></div>
+            <div class="step-dot" data-step="2">3</div>
+            <div class="step-line"></div>
+            <div class="step-dot" data-step="3">4</div>
+            <div class="step-line"></div>
+            <div class="step-dot" data-step="4">5</div>
+          </div>
+          <div class="estimator-card">
+            <div class="estimator-top-bar"></div>
+            <div class="estimator-card-body" id="estimator-body">
+              <!-- Steps injected by JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ How We Work ════════ -->
+  <section id="process" class="process-section">
+    <div class="process-blobs">
+      <div class="blob blob-5"></div>
+      <div class="blob blob-6"></div>
+    </div>
+    <div class="container">
+      <div class="process-header">
+        <p class="section-tag">&mdash; OUR PROCESS</p>
+        <h2 class="section-title-white">HOW WE</h2>
+        <h2 class="section-title-orange">WORK</h2>
+        <p class="process-desc">From the first conversation to the moment we hand you the keys &mdash; six clear stages, zero surprises.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content">
+            <h3>CONSULT</h3>
+            <p>Site visit, requirements discussion, and initial feasibility study at your location.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content">
+            <h3>DESIGN</h3>
+            <p>Architectural plans, structural drawings, and 3D visualizations for your approval.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content">
+            <h3>QUOTE</h3>
+            <p>Transparent itemized cost breakdown with milestone-based payment schedule.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">04</div>
+          <div class="timeline-content">
+            <h3>BUILD</h3>
+            <p>Professional execution with weekly progress updates and quality checkpoints.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">05</div>
+          <div class="timeline-content">
+            <h3>FINISH</h3>
+            <p>Interior work, fittings, paint, and final quality assurance walkthrough.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">06</div>
+          <div class="timeline-content">
+            <h3>HANDOVER</h3>
+            <p>Key delivery, documentation, and 1-year structural warranty commencement.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Projects ════════ -->
+  <section id="projects" class="projects-section">
+    <div class="section-watermark">03</div>
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; PORTFOLIO</p>
+          <h2 class="section-title">OUR</h2>
+          <h2 class="section-title-outline">PROJECTS</h2>
+        </div>
+        <p class="section-header-desc">A showcase of precision, scale, and architectural ambition across India's landscape.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=2070&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2024</span>
+              <h3 class="project-name">The Imperial Residences</h3>
+              <p class="project-meta">Residential Build &middot; Mumbai, MH</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1626178793926-22b28830aa30?q=80&w=2070&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2024</span>
+              <h3 class="project-name">Apex Commercial Park</h3>
+              <p class="project-meta">Commercial Build &middot; Pune, MH</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2023</span>
+              <h3 class="project-name">Heritage Villa Restore</h3>
+              <p class="project-meta">Renovation &middot; Jaipur, RJ</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=1935&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2023</span>
+              <h3 class="project-name">Sunrise Towers</h3>
+              <p class="project-meta">Multi-Family &middot; Ahmedabad, GJ</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?q=80&w=2070&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2022</span>
+              <h3 class="project-name">Prime Tech Campus</h3>
+              <p class="project-meta">Commercial &middot; Bengaluru, KA</p>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img-wrap">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1973&auto=format&fit=crop" alt="Project" class="project-img">
+            <div class="project-overlay"></div>
+            <div class="project-info">
+              <span class="project-year">2022</span>
+              <h3 class="project-name">Lakefront Plots</h3>
+              <p class="project-meta">Property Dev &middot; Hyderabad, TS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Before / After ════════ -->
+  <section class="before-after-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; TRANSFORMATION</p>
+          <h2 class="section-title">BEFORE</h2>
+          <h2 class="section-title-outline">AFTER</h2>
+        </div>
+        <p class="section-header-desc">Real transformations that speak louder than words. Drag the slider to compare.</p>
+      </div>
+      <div class="ba-grid">
+        <div class="ba-card">
+          <div class="ba-slider" data-before="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop">
+            <div class="ba-after"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop" alt="After"></div>
+            <div class="ba-before"><img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?q=80&w=2070&auto=format&fit=crop" alt="Before"></div>
+            <div class="ba-divider"><div class="ba-handle"></div></div>
+            <div class="ba-label ba-label-before">BEFORE</div>
+            <div class="ba-label ba-label-after">AFTER</div>
+            <div class="ba-info">
+              <p class="ba-title">FULL HOME RENOVATION</p>
+              <p class="ba-location">Haldwani, Uttarakhand</p>
+            </div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-slider" data-before="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?q=80&w=2070&auto=format&fit=crop">
+            <div class="ba-after"><img src="https://images.unsplash.com/photo-1556909172-54557c7e4fb7?q=80&w=2070&auto=format&fit=crop" alt="After"></div>
+            <div class="ba-before"><img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2070&auto=format&fit=crop" alt="Before"></div>
+            <div class="ba-divider"><div class="ba-handle"></div></div>
+            <div class="ba-label ba-label-before">BEFORE</div>
+            <div class="ba-label ba-label-after">AFTER</div>
+            <div class="ba-info">
+              <p class="ba-title">KITCHEN REMODEL</p>
+              <p class="ba-location">Nainital, Uttarakhand</p>
+            </div>
+          </div>
+        </div>
+        <div class="ba-card">
+          <div class="ba-slider" data-before="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=2067&auto=format&fit=crop" data-after="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2084&auto=format&fit=crop">
+            <div class="ba-after"><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=2084&auto=format&fit=crop" alt="After"></div>
+            <div class="ba-before"><img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=2067&auto=format&fit=crop" alt="Before"></div>
+            <div class="ba-divider"><div class="ba-handle"></div></div>
+            <div class="ba-label ba-label-before">BEFORE</div>
+            <div class="ba-label ba-label-after">AFTER</div>
+            <div class="ba-info">
+              <p class="ba-title">EXTERIOR FACADE</p>
+              <p class="ba-location">Rudrapur, Uttarakhand</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Why Us ════════ -->
+  <section id="why-us" class="whyus-section">
+    <div class="container">
+      <div class="whyus-grid">
+        <div class="whyus-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; WHY US</p>
+          <h2 class="section-title">WHY</h2>
+          <h2 class="section-title-outline">RATHOR?</h2>
+          <p class="whyus-desc">Two decades of construction mastery, backed by uncompromising quality and transparent pricing.</p>
+          <div class="whyus-features">
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="feature-body">
+                <h4>STRUCTURAL WARRANTY</h4>
+                <p>1-year written defect warranty on every completed project.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+              </div>
+              <div class="feature-body">
+                <h4>TRANSPARENT PRICING</h4>
+                <p>No hidden costs. Milestone-based payments with written schedules.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </div>
+              <div class="feature-body">
+                <h4>ON-TIME DELIVERY</h4>
+                <p>98% of projects delivered on or ahead of committed schedule.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="feature-body">
+                <h4>DEDICATED PROJECT MANAGER</h4>
+                <p>One point of contact from first meeting to final handover.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="whyus-right">
+          <div class="whyus-img-wrap">
+            <img src="https://images.unsplash.com/photo-1541888086925-920a0b6d2a4a?q=80&w=2070&auto=format&fit=crop" alt="Construction team" class="whyus-img">
+          </div>
+          <div class="whyus-stat-card">
+            <div class="whyus-stat-num">200+</div>
+            <div class="whyus-stat-label">Projects Completed</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Testimonials ════════ -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; TESTIMONIALS</p>
+          <h2 class="section-title">WHAT</h2>
+          <h2 class="section-title-outline">CLIENTS SAY</h2>
+        </div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Rathor Constructions delivered our dream home two months ahead of schedule. The finishing quality is unmatched in Mumbai."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RS</div>
+            <div>
+              <p class="testimonial-name">Rajesh Sharma</p>
+              <p class="testimonial-role">Homeowner, Andheri West</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"Professional, transparent, and relentlessly committed to excellence. Our commercial office build was handled with extraordinary precision."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AP</div>
+            <div>
+              <p class="testimonial-name">Amit Patel</p>
+              <p class="testimonial-role">Developer, Pune</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="#FF6600" stroke="#FF6600"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <p class="testimonial-text">"We bought the plot through them and contracted the full build. Seamless, trustworthy, remarkable &mdash; from first meeting to final handover."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">PD</div>
+            <div>
+              <p class="testimonial-name">Priya Desai</p>
+              <p class="testimonial-role">Property Investor, Ahmedabad</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ FAQ ════════ -->
+  <section id="faq" class="faq-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-header-left">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; FAQ</p>
+          <h2 class="section-title">COMMON</h2>
+          <h2 class="section-title-outline">QUESTIONS</h2>
+        </div>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>How long does it take to build a house?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">A standard 1,000&ndash;1,500 sq.ft single-floor house takes approximately 6&ndash;9 months from foundation to handover. Multi-floor projects (G+1, G+2) typically range from 10&ndash;16 months. Timelines depend on plot conditions, approvals, and finish level chosen &mdash; we give you a firm written schedule before work begins.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What is your pricing model &mdash; per sq.ft or full contract?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">We offer both. A per sq.ft rate contract covers all civil and finishing work at a fixed per-sq.ft rate with no hidden extras. A full turnkey contract covers everything end-to-end &mdash; design, structure, finishes, electrical, and plumbing &mdash; under a single quoted price. Both models include a detailed cost breakdown before you sign.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Do you supply the materials or can I source my own?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">We procure all materials directly from trusted vendors to ensure quality and on-time supply. If you have specific brand preferences (e.g. a particular tile or sanitary brand), we accommodate that and adjust the quote accordingly. You always retain the right to inspect material samples before approval.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What does your payment schedule look like?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">Payments are milestone-based &mdash; typically split across foundation completion, slab casting, brickwork, plastering, and final handover. No large upfront lump-sum. The exact schedule is written into the contract so you know exactly when each payment is due and what work it corresponds to.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Do you cover areas beyond Haldwani?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">Our primary base is Haldwani, Nainital. We actively work across Uttarakhand &mdash; including Nainital, Ramnagar, Rudrapur, Kashipur, Almora, and Dehradun. For projects further afield, please contact us and we will assess site accessibility before confirming.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>What warranty do you provide after completion?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">All completed projects come with a 1-year structural defect warranty in writing. This covers any cracks, seepage, or structural settling issues that arise post-handover at no additional charge. Electrical and plumbing fitments carry manufacturer warranties which we hand over to you at the time of key delivery.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>Can I visit the construction site during the build?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">Absolutely &mdash; it is your site. You are welcome to visit anytime during working hours. We also share weekly progress photo updates via WhatsApp so you stay informed even if you cannot visit in person. A dedicated project manager is your single point of contact throughout.</div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" onclick="toggleFaq(this)">
+            <span>How do I get started?</span>
+            <span class="faq-plus">+</span>
+          </button>
+          <div class="faq-answer">The simplest way is to WhatsApp or call us at +91 96399 74556 to book a free consultation. We will visit your site, understand your requirements, and provide a no-obligation estimate &mdash; usually within 48 hours. Alternatively, fill in the contact form below and we will reach out to you.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Contact ════════ -->
+  <section id="contact" class="contact-section">
+    <div class="contact-blobs">
+      <div class="blob blob-7"></div>
+      <div class="blob blob-8"></div>
+    </div>
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-header">
+          <span class="accent-line"></span>
+          <p class="section-tag">&mdash; GET IN TOUCH</p>
+          <h2 class="section-title">LET'S</h2>
+          <h2 class="section-title-outline">BUILD</h2>
+          <p class="contact-desc">Ready to start your project? Tell us what you're building and we'll get back to you within 24 hours.</p>
+          <div class="contact-info">
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Haldwani, Nainital, Uttarakhand 263139</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 96399 74556</span>
+            </div>
+            <div class="contact-info-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+              <span>info@rathorconstructions.in</span>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">f</a>
+            <a href="#" class="social-link" aria-label="Instagram">i</a>
+            <a href="#" class="social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-link" aria-label="YouTube">yt</a>
+          </div>
+        </div>
+        <div class="contact-form-wrap">
+          <div class="contact-form-card">
+            <div class="contact-form-top-bar"></div>
+            <form class="contact-form" id="contact-form" onsubmit="handleContactSubmit(event)">
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Name</label>
+                  <input type="text" name="name" placeholder="Your full name" required>
+                </div>
+                <div class="form-field">
+                  <label>Phone</label>
+                  <input type="tel" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label>Email</label>
+                  <input type="email" name="email" placeholder="your@email.com" required>
+                </div>
+                <div class="form-field">
+                  <label>Service</label>
+                  <select name="serviceType" required>
+                    <option value="">Select a service...</option>
+                    <option value="house-building">House Building Contract</option>
+                    <option value="property-sales">Property Sales</option>
+                    <option value="renovation">Renovation &amp; Remodelling</option>
+                    <option value="other">Other Enquiry</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field">
+                <label>Message</label>
+                <textarea name="message" placeholder="Tell us about your project..." rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">SEND MESSAGE <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════ Footer ════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=80&q=80" alt="Logo" class="footer-logo-img">
+            <span class="footer-logo-text">RATHOR CONSTRUCTIONS</span>
+          </div>
+          <p class="footer-desc">India's trusted construction partner. Building homes, landmarks, and legacies since 2004.</p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="Facebook">f</a>
+            <a href="#" class="footer-social-link" aria-label="Instagram">i</a>
+            <a href="#" class="footer-social-link" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer-social-link" aria-label="YouTube">yt</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>QUICK LINKS</h4>
+          <a href="#services">SERVICES</a>
+          <a href="#estimator">ESTIMATE</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#process">PROCESS</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+        <div class="footer-contact">
+          <h4>CONTACT</h4>
+          <p>Haldwani, Nainital</p>
+          <p>Uttrakhand 263139</p>
+          <p class="mt">+91 9639974556</p>
+          <p>rathorconstructions.in</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Rathor Constructions Pvt. Ltd. All rights reserved.</p>
+        <p>Haldwani, Uttarakhand, India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ════════ Floating Buttons ════════ -->
+  <div class="float-buttons">
+    <button class="back-to-top" id="back-to-top" onclick="scrollToTop()">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="white" stroke-width="2"><path d="M5 15l7-7 7 7"/></svg>
+    </button>
+    <a href="tel:+919639974556" class="float-btn float-call" aria-label="Call Now">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+    <a href="https://wa.me/919639974556" target="_blank" rel="noopener noreferrer" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
